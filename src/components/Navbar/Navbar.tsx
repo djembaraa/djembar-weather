@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
-        <Link href="/" className={styles.logo}>
+        <Link href="https://github.com/djembaraa" className={styles.logo}>
           <CloudSun className={styles.logoIcon} size={28} />
           <span className={styles.logoText}>SkyCast</span>
         </Link>
