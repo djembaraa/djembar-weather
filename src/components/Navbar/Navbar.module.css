@@ -1,0 +1,61 @@
+.navbar {
+  position: sticky; /* Menempel saat discroll */
+  top: 0;
+  z-index: 100; /* Pastikan di atas elemen lain */
+  background-color: rgba(255, 255, 255, 0.8); /* Transparan */
+  backdrop-filter: blur(12px); /* Efek Glassmorphism modern */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Batas lebar konten */
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 1.25rem;
+  transition: opacity 0.2s;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logoIcon {
+  color: var(--accent-color);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.linkItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.linkItem:hover {
+  color: var(--accent-color);
+}
