@@ -27,9 +27,9 @@
 }
 
 .errorCard {
-  background-color: #fee2e2;
-  color: #ef4444;
-  border: 1px solid #fecaca;
+  background-color: var(--bg-error);
+  color: var(--text-error);
+  border: 1px solid var(--border-error);
   padding: 1rem;
   border-radius: var(--radius);
   width: 100%;
@@ -38,7 +38,6 @@
   gap: 0.75rem;
   font-size: 0.95rem;
   font-weight: 500;
-
   animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 
@@ -46,7 +45,7 @@
   width: 100%;
   margin-top: 1rem;
   padding-top: 1.5rem;
-  border-top: 1px dashed #d1d5db;
+  border-top: 1px dashed var(--border-color);
 }
 
 .historyHeader {
@@ -68,8 +67,8 @@
 }
 
 .tag {
-  background-color: white;
-  border: 1px solid #e5e7eb;
+  background-color: var(--bg-tag);
+  border: 1px solid var(--border-color);
   padding: 0.5rem 1rem;
   border-radius: 99px;
   font-size: 0.9rem;
@@ -82,7 +81,7 @@
 .tag:hover {
   border-color: var(--accent-color);
   color: var(--accent-color);
-  background-color: #f0f9ff;
+  background-color: var(--bg-tag-hover);
   transform: translateY(-1px);
 }
 
@@ -115,7 +114,6 @@
     align-items: flex-start;
     padding-top: 3rem;
   }
-
   .title {
     font-size: 2rem;
   }

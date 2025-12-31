@@ -1,18 +1,19 @@
 .navbar {
-  position: sticky; /* Menempel saat discroll */
+  position: sticky;
   top: 0;
-  z-index: 100; /* Pastikan di atas elemen lain */
-  background-color: rgba(255, 255, 255, 0.8); /* Transparan */
-  backdrop-filter: blur(12px); /* Efek Glassmorphism modern */
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  z-index: 100;
+  background-color: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
   height: 64px;
   display: flex;
   align-items: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .container {
   width: 100%;
-  max-width: 1200px; /* Batas lebar konten */
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem;
   display: flex;
@@ -42,7 +43,7 @@
 .links {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .linkItem {
@@ -58,4 +59,16 @@
 
 .linkItem:hover {
   color: var(--accent-color);
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+  .githubText {
+    display: none;
+  }
+  .logoText {
+    font-size: 1.1rem;
+  }
 }
