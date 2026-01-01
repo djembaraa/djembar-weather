@@ -23,7 +23,7 @@ export default function Navbar() {
           <ThemeToggle />
 
           <a
-            href="https://github.com/username"
+            href="https://github.com/djembaraa"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.linkItem}
