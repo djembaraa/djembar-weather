@@ -8,8 +8,8 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SkyCast - Weather Forecast",
-  description: "Professional Weather App built with Next.js 14",
+  title: "Djembaraa Weather App",
+  description: "A simple and elegant weather application built with Next.js",
 };
 
 export default function RootLayout({

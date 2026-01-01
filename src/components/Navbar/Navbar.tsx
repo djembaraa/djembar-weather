@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className={styles.container}>
         <Link href="https://github.com/djembaraa" className={styles.logo}>
           <CloudSun className={styles.logoIcon} size={28} />
-          <span className={styles.logoText}>SkyCast</span>
+          <span className={styles.logoText}>Djembaraa Weather App</span>
         </Link>
 
         <div className={styles.links}>

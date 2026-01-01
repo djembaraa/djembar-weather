@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className={styles.container}>
       <div className={styles.wrapper}>
-        <h1 className={styles.title}>Weather Forecast</h1>
+        <h1 className={styles.title}>Check Weather</h1>
 
         <SearchBar onSearch={fetchWeather} isLoading={loading} />
 
